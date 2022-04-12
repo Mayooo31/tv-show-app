@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 1rem;
+}
+
+.search_result {
+  width: 370px;
+  height: 250px;
+  background-color: #171717;
+  position: absolute;
+  left: -40%;
+  top: 50px;
+  border-radius: 15px;
+  padding: 20px 0;
+}
+
+.search_result_content {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.item_result {
+  padding: 0px 10px;
+  height: 36%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item_result:hover {
+  background: #1c1c1c;
+}
+
+.poster {
+  height: auto;
+  max-width: 50px;
+  margin-left: 5px;
+}
+
+.left_part {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.name_year {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tv_name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #b2b2b2;
+}
+
+.tv_year {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tv_rating {
+  color: #b2b2b2ce;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 18px !important;
+  height: 18px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ///////////////////////////////////////// */
+
+.search_input {
+  width: 130px;
+  height: 35px;
+  padding: 0 34px 0 47px;
+  background: #262626;
+  color: #999;
+  border: none;
+  border-radius: 30px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  outline: none;
+}

@@ -1,0 +1,209 @@
+.container {
+  padding: 0 4.5rem;
+  padding-top: 6rem;
+  margin: auto;
+  max-width: 1170px;
+  background-color: #0f0f0f;
+
+  /* min-height: 720px; */
+}
+
+.right {
+  width: 100%;
+}
+
+.year_genre,
+.info,
+.name_rating,
+.rating,
+.buttons,
+.genres,
+.networks {
+  display: flex;
+}
+
+.info {
+  gap: 3rem;
+}
+
+.poster {
+  height: 34rem;
+}
+
+.name_rating {
+  justify-content: space-between;
+  padding-top: 1.6rem;
+}
+
+.name {
+  font-size: 2.4rem;
+}
+
+.dots {
+  font-size: 1.8rem;
+  color: rgb(128, 127, 127);
+}
+
+.rating {
+  font-size: 1.4rem;
+  align-items: center;
+  border: 2px solid rgb(128, 127, 127);
+  padding: 1.2rem;
+  border-radius: 50%;
+  justify-content: center;
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.rating_name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.imdb {
+  font-size: 12px;
+  font-weight: 700;
+  color: #4d4d4d;
+  text-align: center;
+}
+
+.year_genre,
+.watch_button,
+.favourite_button,
+.season_header {
+  text-transform: uppercase;
+}
+
+.year_genre {
+  gap: 4rem;
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  color: #8c8c8c;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+
+.genres {
+  gap: 1.8rem;
+}
+
+.networks {
+  color: #cfcfcf;
+  gap: 3rem;
+}
+
+.badge {
+  border-left: 2px solid red;
+  padding-left: 0.5rem;
+}
+
+.overview {
+  padding-top: 2rem;
+  color: #727274;
+  line-height: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.buttons {
+  gap: 1rem;
+  padding-top: 4rem;
+}
+
+.watch_button,
+.favourite_button {
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 13px 29px 14px 30px;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.watch_button {
+  background: #eee;
+  color: #0f0f0f;
+}
+
+.watch_button:hover {
+  background: rgb(192, 191, 191);
+}
+
+.favourite_button {
+  background: #262626;
+  color: gray;
+}
+
+.favourite_button:hover {
+  background: #2b2a2a;
+}
+
+/* ////////////////////// */
+
+.tv_series {
+  border-top: 2px solid rgba(128, 128, 128, 0.103);
+  margin-top: 3rem;
+  padding-bottom: 27rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.season_header {
+  cursor: pointer;
+  margin-top: 2rem;
+  padding: 17px 17px 19px 20px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_episodes {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #171717;
+  padding-bottom: 2rem;
+}
+
+.episodes {
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 20px 18px 30px;
+  color: #666;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.episodes:hover {
+  background: #1b1a1a;
+}
+
+.episodes:active {
+  background: #1d1d1d;
+}
+
+.border {
+  margin: 0 20px;
+  height: 1px;
+  background: #1f1f1f;
+  display: block;
+}
+
+.number_name {
+  display: flex;
+  gap: 2rem;
+}
+
+.numb {
+  color: #e8e8e8;
+}

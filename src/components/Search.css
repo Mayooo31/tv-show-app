@@ -1,0 +1,15 @@
+.greenCl {
+  border: rgba(39, 187, 39, 0.602) solid 2px;
+}
+
+.orangeCl {
+  border: rgba(180, 110, 19, 0.637) solid 2px;
+}
+
+.redCl {
+  border: rgba(190, 22, 22, 0.383) solid 2px;
+}
+
+ul {
+  list-style-type: none;
+}
